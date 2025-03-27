@@ -1,31 +1,46 @@
-Develop a full stack solution for a Chronic Disease Management Portal that seamlessly integrates front-end and back-end technologies. 
-The portal should assist patients and healthcare providers in managing chronic conditions like diabetes or hypertension. The portal should focus on tracking essential health metrics, providing basic health insights, and fostering communication between patients and providers.
-The solution should prioritize simplicity, usability, and compliance with healthcare standards, making it achievable within a 5-hour timeframe.
-Scope for 5-Hour MVP:
-Deliver a lightweight Minimum Viable Product (MVP) that highlights core features: secure authentication, health metric tracking, and a basic communication system
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-1. Secure Authentication System:
-Implement login and registration for patients and healthcare providers
-JWT-based session management with appropriate expiration
-Password hashing and security measures
-2. Patient Dashboard:
-Essential Metrics Display: 
-Track and view key health metrics (e.g., blood sugar levels, blood pressure, weight).
-Visualize recent trends in a simple chart format (last 7 days).
-Health Tips: 
-Basic advice relevant to the patient’s condition (e.g., "Stay hydrated" for diabetes).
-3. Profile Management:
-Allow patients to view and edit their profile information
-Include fields for basic health information (e.g., allergies, current medications)
-4. Healthcare Provider View:
-List of assigned patients with their recent health metrics and status (e.g., "Stable" or "Needs Attention").
-Click to view detailed metric history for a specific patient.
-5. Metric Submission for Patients
-Simple form for patients to log daily metrics (e.g., blood sugar level, blood pressure).
-6. Basic Messaging System
-Allow patients to send a short message to their provider.
-Providers can respond with general advice or next steps.
-7. Privacy and Security Measures:
-Implement logging for user actions related to data access
-Add a consent checkbox for data usage during registration
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
